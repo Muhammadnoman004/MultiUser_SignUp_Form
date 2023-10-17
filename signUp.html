@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>SIGN UP</title>
+
+</head>
+
+<body>
+
+    
+
+ <div class="container main">
+        <div>
+            
+            <h1 id="h1" >SIGN Up</h1><br>
+        </div>
+
+        <div class="button">
+            <button id="Sbutton" style="width: 130px; height: 40px; background-color: rgb(63, 94, 179) ; color: white; border: none; border-radius: 20px; font-size: large;">Sign up</button>
+            <button onclick="SIchange()" id="Sbutton1" style="width: 130px; height: 40px; background-color:  white; color: rgb(63, 94, 179); border: none; border-radius: 20px; border: 1px dotted black; font-size: large;">Sign in</button>
+
+        </div>
+
+        <div class="form-floating mb-3  ">
+            <input type="email" class="form-control " id="semail" placeholder="name@example.com">
+            <label for="floatingInput">Email address</label>
+        </div>
+        <div class="form-floating ">
+            <input type="password" class="form-control" id="spass" placeholder="Password">
+            <label for="floatingPassword">Password</label><br>
+            <p id="para">
+
+            </p>
+            <button onclick="signUp()" type="button" class="btnn">Sign Up</button>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
